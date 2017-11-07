@@ -8,4 +8,4 @@ fi
 cp -v ~/Downloads/notebook.ipynb ./notebook.ipynb
 git add .
 git commit -am "${1}"
-git push
+git push -f
