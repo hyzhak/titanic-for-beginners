@@ -1,7 +1,5 @@
 set -e
 
-echo $1
-
 if [ -z "${1}" ]; then
   echo "please define commit title: ./commit.sh 'title'"; 
   exit 1;
