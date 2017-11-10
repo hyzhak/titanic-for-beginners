@@ -5,7 +5,7 @@ if [ -z "${1}" ]; then
   exit 1;
 fi
 
-cp -v ~/Downloads/notebook.ipynb ./notebook.ipynb
+mv -v ~/Downloads/notebook.ipynb ./notebook.ipynb
 git add .
 git commit -am "${1}"
 git push -f
